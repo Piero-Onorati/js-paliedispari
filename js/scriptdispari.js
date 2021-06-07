@@ -20,10 +20,11 @@ var user = prompt('Perfetto! Ora scegli un numero da 1 a 5');
 document.getElementById('numeroutente').innerHTML = user;
 
 // Controllo su numero utente
-if (user < 0 || user > 5) {
-    alert('Attenzione! Sceglier un numero da 1 a 5')
+while (user < 0 || user > 5) {
+    var user = prompt('Attenzione! Scegliere un numero da 1 a 5');
 }
 
+    
 // Numero random generato dal computer
 var computer = getRnd (1,5);
 document.getElementById('numeroPC').innerHTML = computer;
@@ -35,5 +36,5 @@ if (pairOdispari(somma) == pariDispari ) {
 }else{
     document.getElementById("esito").innerHTML = 'Hai perso';
 }
-
+    
 
