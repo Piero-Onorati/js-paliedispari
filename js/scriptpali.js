@@ -25,5 +25,3 @@ if (parola == invParola) {
 } else {
     document.getElementById('Palindroma').innerHTML ='La parola non è palindroma.';
 }
-
-

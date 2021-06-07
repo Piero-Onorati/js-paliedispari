@@ -6,9 +6,9 @@ function getRnd(min, max) {
 
 function pairOdispari(number) {
     if (number % 2 == 0) {
-        return 'pari'
+        return 'pari';
     } else {
-        return 'dispari'  
+        return 'dispari'; 
     }    
 }
 
@@ -24,7 +24,6 @@ while (user < 0 || user > 5) {
     var user = prompt('Attenzione! Scegliere un numero da 1 a 5');
 }
 
-    
 // Numero random generato dal computer
 var computer = getRnd (1,5);
 document.getElementById('numeroPC').innerHTML = computer;
@@ -36,5 +35,3 @@ if (pairOdispari(somma) == pariDispari ) {
 }else{
     document.getElementById("esito").innerHTML = 'Hai perso';
 }
-    
-
