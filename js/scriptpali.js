@@ -11,7 +11,7 @@ function wordReverse(word) {
     // Unire le lettere in una nuova parola
     var joinWord = arrayReverse.join('');
 
-    return joinWord
+    return joinWord;
 
 }
 
@@ -21,9 +21,9 @@ var parola = prompt('Inserisci una parola, ti dirò se è palindorma!').toLowerC
 var invParola = wordReverse(parola);
 
 if (parola == invParola) {
-    document.getElementById('Palindroma').innerHTML = 'La parola è palindroma'
+    document.getElementById('Palindroma').innerHTML = 'La parola è palindroma';
 } else {
-    document.getElementById('Palindroma').innerHTML ='La parola non è palindroma.'
+    document.getElementById('Palindroma').innerHTML ='La parola non è palindroma.';
 }
 
 
